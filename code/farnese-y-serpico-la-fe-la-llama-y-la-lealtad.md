@@ -1,8 +1,9 @@
 ---
 layout: layout-post.njk
 title: Farnese y Serpico La Fe la Llama y la Lealtad
-description: Un análisis sobre Farnese y Serpico en *Berserk*.
-tags: ["berserk", "personajes", "farnese", "serpico"]
+description: Un análisis sobre Farnese y Serpico en Berserk
+tags: ["blog", "berserk", "personajes", "farnese", "serpico"]
+
 ---
 
 ## Introducción

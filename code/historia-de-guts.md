@@ -2,8 +2,8 @@
 layout: layout-post.njk
 title: Historia de Guts
 description: Analisis de Guts
-
-tags: ["blog", "libros"]
+tags: ["blog", "berserk", "personajes", "guts"]
+---
 
 ---
 
