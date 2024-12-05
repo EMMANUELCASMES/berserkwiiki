@@ -2,7 +2,7 @@
 layout: layout-post.njk
 title: El Ritual que Marcó un Destino  
 description: Eclipse 
-tags: ["blog", "libros"]
+tags: ["blog", "berserk"]
 
 ---
 
