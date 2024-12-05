@@ -7,50 +7,160 @@ body {
   padding: 1rem;
   max-width: 800px;
   min-height: 100vh;
-  border: medium solid red;
   text-align: center;
-  font-family: system-ui, sans-serif;
+  font-family: 'Garamond', serif; 
+  background-color: #0a0a0a; /* Fondo negro profundo */
+  color: #e0e0e0; /* Texto gris claro */
 }
 
 a {
-  color: #1873a5;
-  transition: all 0.3s ease-out;
+  color: #cc0620; /* Rojo sangre */
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
 
-  &:hover {
-    color: red;
-  }
+a:hover {
+  color: rgb(255, 30, 0); /* Rojo más brillante */
 }
 
 hr {
   margin: 2rem auto;
   width: 80%;
+  border: none;
+  border-top: 2px solid #a83232; /* Línea roja */
 }
 
 img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto; /* Responsivo */
 }
 
-p,
-li {
+p, li {
   text-align: left;
+  line-height: 1.8;
 }
 
-.menu {
+li {
+  list-style: none;
+}
+
+/* Estilo general para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1a1a1a; /* Fondo oscuro */
+  border-bottom: 3px solid #ff0000; /* Borde rojo estilo neón */
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Sombra roja de neón */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque de fondo */
+}
+
+/* Estilo del logo */
+.navbar-logo {
+  width: 60px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: rotate(360deg); /* Efecto de rotación al pasar el mouse */
+}
+
+/* Estilo del menú */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-menu a {
+  color: #e0e0e0; /* Texto claro */
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #ff4d4d; /* Rojo neón */
+  text-shadow: 0 0 8px #ff4d4d, 0 0 20px #ff4d4d, 0 0 30px #ff4d4d; /* Efecto neón al pasar el mouse */
+}
+
+.navbar-menu a::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
   width: 100%;
-  max-width: 480px;
-  margin: 0 auto;
-  border: thin solid red;
+  height: 2px;
+  background-color: #ff4d4d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
 
-  ul {
-    margin: 0;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-  }
+.navbar-menu a:hover::before {
+  transform: scaleX(1); /* Línea roja debajo del enlace */
+}
 
-  li {
-    list-style: none;
+/* Estilo de la barra de búsqueda */
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-form input {
+  padding: 0.6rem 1rem;
+  background-color: #222; /* Fondo oscuro para el input */
+  color: #fff; /* Texto blanco */
+  border: 1px solid #ff4d4d; /* Borde rojo */
+  border-radius: 5px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.search-form input::placeholder {
+  color: #bfbfbf; /* Placeholder gris claro */
+}
+
+.search-form input:focus {
+  border-color: #ff0000; /* Rojo brillante al enfocar */
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Efecto de resplandor */
+}
+
+.search-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #ff4d4d; /* Fondo rojo */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #cc0000; /* Rojo más oscuro al pasar el mouse */
+}
+
+/* Estilo gótico para el título h2 */
+.gothic-heading {
+  font-family: 'Cinzel', serif; /* Fuente clásica gótica */
+  font-size: 2rem; /* Tamaño grande para destacar */
+  color: #cc0620; /* Rojo oscuro para darle un toque dramático */
+  text-transform: uppercase; /* Mayúsculas para un aire más imponente */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 0 25px #ff4d4d; /* Sombra para un toque gótico y resplandeciente */
+  border-bottom: 3px solid #cc0620; /* Línea roja debajo para mayor énfasis */
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsividad para el título */
+@media (max-width: 768px) {
+  .gothic-heading {
+    font-size: 1.5rem; /* Ajustar tamaño en pantallas más pequeñas */
   }
 }

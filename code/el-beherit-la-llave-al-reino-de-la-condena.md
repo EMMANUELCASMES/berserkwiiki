@@ -2,8 +2,14 @@
 layout: layout-post.njk
 title: El Beherit La Llave al Reino de la Condena
 description: Un análisis del Beherit y su papel en el destino oscuro de los personajes de Berserk.
-tags: ["blog", "berserk", "artefactos"]
+tags: ["blog","artefactos"]
 ---
+---
+
+# {{title}}
+
+![Logo de Berserk](/img/Beherit.jpeg)
+
 
 ## Introducción
 

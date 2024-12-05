@@ -5,6 +5,12 @@ description: Griffith
 tags: ["blog", "personaje","Griffith" ]
 
 ---
+---
+
+# {{title}}
+
+
+---
 # Griffith: El Sueño de un Halcón y su Oscura Transformación  
 
 ---

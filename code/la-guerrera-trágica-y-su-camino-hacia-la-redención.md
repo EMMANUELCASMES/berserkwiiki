@@ -4,7 +4,12 @@ title: La Guerrera Trágica y su Camino hacia la Redención
 description: Un análisis de la evolución de Casca y su lucha por encontrar la paz en el oscuro mundo de Berserk
 tags: ["berserk", "casca", "redención", "personajes"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 En el mundo de *Berserk*, pocos personajes han sufrido una transformación tan profunda como Casca, la guerrera que, en su juventud, fue una de las principales figuras de los Halcones y que, tras los trágicos eventos que marcaron su vida, se convierte en un símbolo de sufrimiento y búsqueda de redención. La historia de Casca no solo es un relato de sufrimiento, sino también de lucha por recuperar su humanidad en medio de la oscuridad que la rodea.

@@ -4,7 +4,12 @@ title: La Fantasía y la Realidad La Transición entre Mundos
 description: Un análisis sobre cómo *Berserk* difumina las líneas entre la fantasía y la realidad, explorando los límites de ambos
 tags: ["blog", "berserk", "temas"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 En el mundo de *Berserk*, las fronteras entre la fantasía y la realidad son tan frágiles como la cordura de sus personajes. La serie de Kentaro Miura no solo presenta un universo lleno de seres sobrenaturales, sino que también utiliza la fantasía como un espejo para explorar las profundidades de las emociones humanas y las consecuencias de la ambición, la desesperación y la venganza.

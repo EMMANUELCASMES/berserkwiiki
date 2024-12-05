@@ -2,7 +2,13 @@
 layout: layout-post.njk
 title: El Espadachín Negro La Lucha de Guts contra el Destino
 description: La lucha interminable de Guts como el Espadachín Negro y su desafío al destino en Berserk.
-tags: ["blog", "berserk", "personajes"]
+tags: ["blog", "personajes"]
+---
+---
+
+# {{title}}
+
+
 ---
 ## Introducción
 

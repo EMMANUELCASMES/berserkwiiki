@@ -4,7 +4,12 @@ title: Elfhelm La Isla de la Esperanza y la Magia
 description: Un santuario místico en el mundo de Berserk donde la fantasía y la realidad convergen
 tags: ["blog", "berserk", "lugares"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 En el vasto y sombrío universo de *Berserk*, Elfhelm se presenta como un refugio único, una isla mágica donde la esperanza y la magia florecen en medio de un mundo devastado por la oscuridad. Este lugar, hogar de los elfos y otros seres mágicos, sirve como un punto crucial en el viaje de Guts y su grupo, ofreciendo tanto un respiro de los horrores que han enfrentado como nuevas perspectivas sobre el equilibrio entre la fantasía y la realidad.

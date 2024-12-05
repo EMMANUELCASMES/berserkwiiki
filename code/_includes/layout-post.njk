@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.ico">
   <link rel="stylesheet" href="/css/styles.css">
+  
 </head>
 <body>
   {% include "header.njk" %}
@@ -16,9 +17,9 @@
   <hr>
   <aside>
     <h2>Categorías</h2>
-    <h3>Libros</h3>
+    <h3>Berserk</h3>
     <ul>
-      {% for article in collections.libros %}
+      {% for article in collections.berserk %}
         <li>
           <a href="{{article.url}}">
             {{ article.data.title }}
@@ -26,9 +27,20 @@
         </li>
       {% endfor %}
     </ul>
-    <h3>Películas</h3>
+    <h3>Personajes</h3>
     <ul>
-      {% for article in collections.peliculas %}
+      {% for article in collections.personajes %}
+        <li>
+          <a href="{{article.url}}">
+            {{ article.data.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    </ul>
+    <h3>Artefactos</h3>
+    <ul>
+      {% for article in collections.artefactos %}
         <li>
           <a href="{{article.url}}">
             {{ article.data.title }}

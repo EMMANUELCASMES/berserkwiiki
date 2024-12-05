@@ -4,7 +4,12 @@ title: La Marca del Sacrificio Una Vida Perseguida por Demonios
 description: El significado y las implicaciones de la Marca del Sacrificio en *Berserk*, y su impacto en Guts y Casca
 tags: ["blog", "berserk", "temas"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 La Marca del Sacrificio es uno de los elementos más icónicos y perturbadores de *Berserk*. Este símbolo, grabado en la carne de Guts y Casca durante el Eclipse, representa no solo una conexión con lo sobrenatural, sino también una condena eterna. Los portadores de esta marca son perseguidos por entidades del Astral, enfrentándose a horrores inimaginables que trascienden las fronteras de la realidad.

@@ -2,13 +2,13 @@
 layout: layout-post.njk
 title: La Era Dorada y el Grupo de los Halcones
 description: Era Dorada 
-tags: ["blog", "libros"]
+tags: ["blog", "berserk"]
+date: 2024-01-02
 
 ---
 
 # {{title}}
 
-# La Era Dorada: La Cima y la Ruina de los Halcones  
 
 ---
 

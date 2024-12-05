@@ -2,12 +2,16 @@
 layout: layout-post.njk
 title: Historia de Guts
 description: Analisis de Guts
-tags: ["blog", "berserk", "personajes", "guts"]
+tags: ["blog", "personajes", "guts"]
+date: 2024-01-01
 ---
 
 ---
 
 # {{ title }}
+![Logo de Berserk](/img/posterr.jpg)
+
+
 
 # Introducción
 La historia de Guts, el protagonista de *Berserk*, es una epopeya oscura y profunda que explora la resistencia humana frente a la adversidad extrema. Creado por Kentaro Miura, Guts representa tanto la crudeza como la resiliencia de la humanidad en un mundo gobernado por la violencia, la traición y el dolor. Nacido en un campo de batalla, su vida es un ciclo de supervivencia, lucha y redención que desafía constantemente su propia humanidad y límites. La historia de Guts se convierte en un viaje introspectivo sobre el odio, la venganza, el amor y, en última instancia, la búsqueda de paz en un mundo aparentemente sin esperanza.

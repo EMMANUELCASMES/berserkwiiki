@@ -4,7 +4,12 @@ title: La Mano de Dios Los Arquitectos de la Oscuridad
 description: Los enigmáticos arquitectos detrás del destino en Berserk.
 tags: ["blog", "berserk", "oscuridad"]
 ---
+---
 
+# {{title}}
+
+
+---
 ## Introducción
 
 Dentro del oscuro universo de *Berserk*, la Mano de Dios se erige como una de las entidades más enigmáticas y aterradoras. Compuesta por cinco figuras de inmenso poder, son los agentes directos de la oscuridad que moldean el destino de la humanidad y los eventos que definen la tragedia central de la historia. Estas entidades son esenciales para comprender el trasfondo de la serie, ya que su influencia trasciende el tiempo, conectando el sufrimiento humano con un propósito mucho más siniestro.

@@ -5,7 +5,12 @@ description: Un análisis sobre Farnese y Serpico en Berserk
 tags: ["blog", "berserk", "personajes", "farnese", "serpico"]
 
 ---
+---
 
+# {{title}}
+
+
+---
 ## Introducción
 
 Entre los muchos personajes fascinantes de *Berserk*, Farnese y Serpico destacan como un dúo marcado por complejas emociones, conflictos internos y una evolución impactante. Farnese, nacida en el seno de la nobleza y atrapada en su fanatismo religioso, se encuentra con Serpico, un joven de orígenes humildes que se convierte en su fiel escudero. Juntos, estos personajes enfrentan los horrores del mundo de Guts y encuentran en su vínculo una fuerza inesperada para superar sus propios demonios.

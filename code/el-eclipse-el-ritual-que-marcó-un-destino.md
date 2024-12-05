@@ -8,8 +8,7 @@ tags: ["blog", "berserk"]
 
 # {{title}}
 
-
----
+![Logo de Berserk](/img/eclipse-berserk.jpeg)
 
 ## Introducción  
 

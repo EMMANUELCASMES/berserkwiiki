@@ -4,7 +4,12 @@ title: La Armadura Berserker El Precio de la Venganza
 description: Un análisis de la poderosa y aterradora armadura de Guts en Berserk
 tags: ["blog", "berserk", "artefactos"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 En el mundo de *Berserk*, la lucha de Guts contra fuerzas oscuras parece interminable. Entre los desafíos que enfrenta, pocos artefactos son tan emblemáticos y significativos como la Armadura Berserker. Este objeto no solo amplifica las capacidades de Guts, sino que también simboliza el sacrificio y la carga que conlleva el deseo de venganza. 

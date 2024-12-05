@@ -4,7 +4,12 @@ title: La Espada del Dragón El Icono de Destrucción de Guts
 description: Una mirada a la legendaria arma de Guts y su significado en Berserk
 tags: ["blog", "berserk", "artefactos"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 Entre las muchas imágenes icónicas de *Berserk*, pocas son tan reconocibles como la Espada del Dragón, conocida como *Dragonslayer*. Esta enorme hoja, que desafía las proporciones humanas, es tanto una herramienta de combate como un símbolo de la lucha interminable de Guts contra las fuerzas sobrenaturales que atormentan su vida.

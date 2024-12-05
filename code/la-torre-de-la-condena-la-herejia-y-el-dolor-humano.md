@@ -4,7 +4,12 @@ title: La Torre de la Condena La Herejía y el Dolor Humano
 description: Un análisis de la Torre de la Condena en Berserk su simbolismo y el sufrimiento que representa
 tags: ["blog", "berserk", "temas"]
 ---
+---
 
+# {{title}}
+
+
+---
 # Introducción
 
 La Torre de la Condena es uno de los escenarios más emblemáticos de *Berserk*, una construcción imponente que sirve como símbolo de la opresión, la desesperación y la brutalidad de un mundo gobernado por el fanatismo y el abuso de poder. Este lugar no solo representa un punto crítico en la narrativa de la serie, sino también una profunda exploración de los temas de la fe, el sacrificio y la humanidad.

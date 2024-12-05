@@ -4,7 +4,12 @@ title: Los Apóstoles Los Soldados de la Oscuridad
 description: Un análisis de los Apóstoles en Berserk y su papel en el ciclo de destrucción y poder
 tags: ["blog", "berserk", "personajes"]
 ---
+---
 
+# {{title}}
+
+
+---
 ## Introducción
 
 Los Apóstoles, figuras imponentes y aterradoras en el mundo de *Berserk*, representan la corrupción definitiva del alma humana. Estos seres, otrora personas comunes, sacrificaron lo que más amaban a cambio de poderes inmensos y una existencia al servicio de la Mano de Dios. A través de ellos, Kentaro Miura explora temas de sacrificio, ambición y la naturaleza del mal. Su papel en la narrativa es crucial, sirviendo tanto como antagonistas principales como reflejos de la oscuridad inherente en la humanidad.
