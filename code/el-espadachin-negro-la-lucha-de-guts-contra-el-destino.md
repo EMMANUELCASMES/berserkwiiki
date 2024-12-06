@@ -8,7 +8,7 @@ tags: ["blog", "personajes"]
 
 # {{title}}
 
-
+![Logo de Berserk](/img/espadachin.jpeg)
 ---
 ## Introducción
 

@@ -9,7 +9,7 @@ tags: ["blog", "berserk", "personajes", "farnese", "serpico"]
 
 # {{title}}
 
-
+![Logo de Berserk](/img/SerpicoandFarneze.jpeg)
 ---
 ## Introducción
 

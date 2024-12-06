@@ -8,8 +8,7 @@ tags: ["blog", "berserk", "personajes"]
 
 # {{title}}
 
-
----
+![Logo de Berserk](/img/puck.jpeg)
 # Introducción
 
 En el universo sombrío de *Berserk*, donde predominan la tragedia y el caos, Puck emerge como un contraste sorprendente. Este pequeño elfo de la raza Pisky no solo sirve como alivio cómico, sino también como un símbolo de esperanza, humanidad y ternura. Su relación con Guts y los eventos que enfrenta aportan profundidad emocional a la historia, equilibrando el peso de su violencia y desesperación. 

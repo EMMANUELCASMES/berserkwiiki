@@ -8,9 +8,8 @@ date: 2024-01-20
 ---
 
 # {{title}}
+![Logo de Berserk](/img/miura.jpeg)
 
-
----
 # Introducción
 
 Kentaro Miura es el nombre que resuena en la mente de millones de fanáticos del manga y la fantasía oscura. Como creador de *Berserk*, Miura dejó una marca imborrable en la industria, no solo por su habilidad artística excepcional, sino también por su capacidad para explorar los rincones más oscuros de la condición humana. A través de su obra, Miura llevó a sus lectores a un mundo de desesperación y tragedia, pero también de esperanza y resistencia.

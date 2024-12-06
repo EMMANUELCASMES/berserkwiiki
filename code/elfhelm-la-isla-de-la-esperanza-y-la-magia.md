@@ -8,7 +8,7 @@ tags: ["blog", "berserk", "lugares"]
 
 # {{title}}
 
-
+![Logo de Berserk](/img/SerpicoandFarneze.jpeg)
 ---
 # Introducción
 

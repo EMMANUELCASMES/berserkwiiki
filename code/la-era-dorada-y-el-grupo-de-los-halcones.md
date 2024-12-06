@@ -10,7 +10,7 @@ date: 2024-01-02
 # {{title}}
 
 
----
+![Logo de Berserk](/img/dorada.png)
 
 ## Introducción  
 **La Era Dorada** es uno de los arcos más icónicos y celebrados de *Berserk*. Durante este periodo, conocemos a la Banda de los Halcones, un grupo de mercenarios liderado por Griffith, y su papel en la vida de Guts. Este arco explora temas de ambición, traición, amor y amistad, y es fundamental para entender los conflictos y motivaciones de los personajes principales.

@@ -12,7 +12,7 @@ tags: ["blog", "personaje","Griffith" ]
 
 ---
 # Griffith: El Sueño de un Halcón y su Oscura Transformación  
-
+![Logo de Berserk](/img/Griffith.jpeg)
 ---
 
 ## Introducción  

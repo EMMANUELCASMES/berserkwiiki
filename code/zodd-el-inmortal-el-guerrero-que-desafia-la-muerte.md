@@ -6,7 +6,7 @@ tags: ["blog", "berserk", "personajes"]
 ---
 
 # Introducción
-
+![Logo de Berserk](/img/zodd.jpeg)
 Zodd el Inmortal es uno de los personajes más fascinantes y duraderos de *Berserk*. Conocido tanto por su poder descomunal como por su longevidad, Zodd es un guerrero que ha trascendido generaciones, enfrentándose a los más grandes combatientes de la historia. Su introducción en la serie establece un tono de brutalidad y misticismo que define gran parte de la narrativa de *Berserk*.
 
 Como apóstol, Zodd representa la conexión entre el mundo humano y el reino de lo sobrenatural, sirviendo como un puente que introduce a los lectores a la oscura realidad de la Mano de Dios y los poderes que gobiernan este universo. Sin embargo, su personalidad compleja y su código de honor lo convierten en mucho más que un simple villano. Zodd es un antagonista recurrente y una figura de respeto, tanto para Guts como para los lectores.

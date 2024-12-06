@@ -4,7 +4,7 @@ title: Skull Knight El Enigma que Acecha en las Sombras
 description: Un análisis del misterioso Skull Knight y su papel en la narrativa de Berserk
 tags: ["blog", "berserk", "personajes"]
 ---
-
+![Logo de Berserk](/img/skull.jpeg)
 ## Introducción
 
 En el oscuro mundo de *Berserk*, pocos personajes son tan enigmáticos como el Skull Knight. Este caballero esquelético, envuelto en una armadura imponente y portador de un aura sobrenatural, es tanto un guía como un adversario potencial en la historia de Guts. Su presencia constante en los momentos más críticos y su conocimiento profundo de los misterios del mundo convierten al Skull Knight en un personaje crucial y fascinante.

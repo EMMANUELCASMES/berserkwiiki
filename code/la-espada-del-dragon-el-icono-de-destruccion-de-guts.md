@@ -8,8 +8,7 @@ tags: ["blog", "berserk", "artefactos"]
 
 # {{title}}
 
-
----
+![Logo de Berserk](/img/espada.jpeg)
 # Introducción
 
 Entre las muchas imágenes icónicas de *Berserk*, pocas son tan reconocibles como la Espada del Dragón, conocida como *Dragonslayer*. Esta enorme hoja, que desafía las proporciones humanas, es tanto una herramienta de combate como un símbolo de la lucha interminable de Guts contra las fuerzas sobrenaturales que atormentan su vida.

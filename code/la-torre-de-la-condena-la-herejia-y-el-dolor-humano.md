@@ -9,7 +9,8 @@ tags: ["blog", "berserk", "temas"]
 # {{title}}
 
 
----
+
+![Logo de Berserk](/img/torre.jpeg)
 # Introducción
 
 La Torre de la Condena es uno de los escenarios más emblemáticos de *Berserk*, una construcción imponente que sirve como símbolo de la opresión, la desesperación y la brutalidad de un mundo gobernado por el fanatismo y el abuso de poder. Este lugar no solo representa un punto crítico en la narrativa de la serie, sino también una profunda exploración de los temas de la fe, el sacrificio y la humanidad.
