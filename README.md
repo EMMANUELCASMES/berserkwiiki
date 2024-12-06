@@ -1,8 +1,6 @@
 # 🩸 **WikiBerserk** 🗡️  
 *Explorando la oscuridad y la gloria de la obra maestra de Kentaro Miura.*
-
 ---
-
 Bienvenidos a **WikiBerserk**, un proyecto que rinde homenaje al universo sombrío y cautivador de *Berserk*. Aquí encontrarás un compendio detallado de artículos que diseccionan los personajes, artefactos, arcos narrativos y las profundidades filosóficas de esta saga inmortal.
 
 > “El destino está escrito con sangre, pero el hombre debe empuñar su espada.”  
