@@ -29,35 +29,56 @@
     </ul>
 
     <!-- Barra de búsqueda -->
-    <form class="search-form" action="http://www.google.es/search" method="get">
-      <input type="hidden" name="ie" value="UTF-8">
-      <input type="hidden" name="oe" value="UTF-8">
-      <!-- Especificamos las URLs para limitar la búsqueda -->
-      <input type="hidden" name="q" value="site:localhost:7777/historia-de-guts/ 
-                    OR site:localhost:7777/skull-knight-el-enigma-que-acecha-en-las-sombras/ 
-                    OR site:localhost:7777/la-era-dorada-y-el-grupo-de-los-halcones/ 
-                    OR site:localhost:7777/kentaro-miura-el-genio-detras-de-la-oscuridad/ 
-                    OR site:localhost:7777/zodd-el-inmortal-el-guerrero-que-desafia-la-muerte/ 
-                    OR site:localhost:7777/el-beherit-la-llave-al-reino-de-la-condena/ 
-                    OR site:localhost:7777/el-espadachin-negro-la-lucha-de-guts-contra-el-destino/ 
-                    OR site:localhost:7777/elfhelm-la-isla-de-la-esperanza-y-la-magia/ 
-                    OR site:localhost:7777/el-eclipse-el-ritual-que-marc%C3%B3-un-destino/ 
-                    OR site:localhost:7777/el-sue%C3%B1o-de-un-halc%C3%B3n-y-su-oscura-transformaci%C3%B3n/ 
-                    OR site:localhost:7777/farnese-y-serpico-la-fe-la-llama-y-la-lealtad/ 
-                    OR site:localhost:7777/la-armadura-berserker-el-precio-de-la-venganza/ 
-                    OR site:localhost:7777/la-espada-del-dragon-el-icono-de-destruccion-de-guts/ 
-                    OR site:localhost:7777/la-fantasia-y-la-realidad-la-transicion-entre-mundos/ 
-                    OR site:localhost:7777/la-mano-de-dios-los-arquitectos-de-la-oscuridad/ 
-                    OR site:localhost:7777/la-marca-del-sacrificio-una-vida-perseguida-por-demonios/ 
-                    OR site:localhost:7777/la-torre-de-la-condena-la-herejia-y-el-dolor-humano/ 
-                    OR site:localhost:7777/los-apostoles-los-soldados-de-la-oscuridad/ 
-                    OR site:localhost:7777/puck-la-luz-en-la-oscuridad-de-un-mundo-cruel/">
-      <input type="search" placeholder="Buscar en los sitios..." name="q" required="">
+    <form class="search-form" id="searchForm">
+      <input type="text" id="searchBar" placeholder="Buscar en el sitio...">
       <button type="submit">Buscar</button>
     </form>
+
+    <!-- Contenedor de resultados -->
+    <ul id="results"></ul>
   </div>
 </nav>
 
+<script>
+  // Lista de artículos y URLs
+  const articles = [
+    { title: "Elfhelm: La Isla de la Esperanza y la Magia", url: "https://emmanuelcasmes.github.io/berserkwiiki/elfhelm-la-isla-de-la-esperanza-y-la-magia/" },
+    { title: "El Eclipse: El Ritual que Marcó un Destino", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-eclipse-el-ritual-que-marcó-un-destino/" },
+    { title: "El Sueño de un Halcón y su Oscura Transformación", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-sueño-de-un-halcón-y-su-oscura-transformación/" },
+    { title: "Farnese y Serpico: La Fe, la Llama y la Lealtad", url: "https://emmanuelcasmes.github.io/berserkwiiki/farnese-y-serpico-la-fe-la-llama-y-la-lealtad/" },
+    { title: "La Armadura Berserker: El Precio de la Venganza", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-armadura-berserker-el-precio-de-la-venganza/" },
+    { title: "La Espada del Dragón: El Icono de Destrucción de Guts", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-espada-del-dragon-el-icono-de-destruccion-de-guts/" },
+    { title: "La Fantasía y la Realidad: La Transición entre Mundos", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-fantasia-y-la-realidad-la-transicion-entre-mundos/" },
+    { title: "La Mano de Dios: Los Arquitectos de la Oscuridad", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-mano-de-dios-los-arquitectos-de-la-oscuridad/" },
+    { title: "La Marca del Sacrificio: Una Vida Perseguida por Demonios", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-marca-del-sacrificio-una-vida-perseguida-por-demonios/" },
+    { title: "La Torre de la Condena: La Herejía y el Dolor Humano", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-torre-de-la-condena-la-herejia-y-el-dolor-humano/" },
+    { title: "Los Apóstoles: Los Soldados de la Oscuridad", url: "https://emmanuelcasmes.github.io/berserkwiiki/los-apostoles-los-soldados-de-la-oscuridad/" },
+    { title: "Puck: La Luz en la Oscuridad de un Mundo Cruel", url: "https://emmanuelcasmes.github.io/berserkwiiki/puck-la-luz-en-la-oscuridad-de-un-mundo-cruel/" },
+  ];
+
+  // Función de búsqueda
+  document.getElementById('searchForm').addEventListener('submit', function(e) {
+    e.preventDefault();  // Prevenir la recarga de la página al hacer submit
+    const query = document.getElementById('searchBar').value.toLowerCase();
+    const results = articles.filter(article => article.title.toLowerCase().includes(query));
+    displayResults(results);
+  });
+
+  // Mostrar resultados en la página
+  function displayResults(results) {
+    const resultsList = document.getElementById('results');
+    resultsList.innerHTML = '';  // Limpiar los resultados anteriores
+    if (results.length > 0) {
+      results.forEach(result => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${result.url}" target="_blank">${result.title}</a>`;
+        resultsList.appendChild(li);
+      });
+    } else {
+      resultsList.innerHTML = '<li>No se encontraron resultados.</li>';
+    }
+  }
+</script>
 
 
     <img src="/berserkwiiki/img/Berserk_anime_logo.png" alt="x">
