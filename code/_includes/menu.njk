@@ -25,6 +25,13 @@
 <script>
   // Lista de artículos y URLs
   const articles = [
+    { title: "Historia de Guts", url: "https://emmanuelcasmes.github.io/berserkwiiki/historia-de-guts/" },
+    { title: "Skull Knight: El Enigma que Acecha en las Sombras", url: "https://emmanuelcasmes.github.io/berserkwiiki/skull-knight-el-enigma-que-acecha-en-las-sombras/" },
+    { title: "La Era Dorada y el Grupo de los Halcones", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-era-dorada-y-el-grupo-de-los-halcones/" },
+    { title: "Kentaro Miura: El Genio Detrás de la Oscuridad", url: "https://emmanuelcasmes.github.io/berserkwiiki/kentaro-miura-el-genio-detras-de-la-oscuridad/" },
+    { title: "Zodd: El Inmortal, el Guerrero que Desafía la Muerte", url: "https://emmanuelcasmes.github.io/berserkwiiki/zodd-el-inmortal-el-guerrero-que-desafia-la-muerte/" },
+    { title: "El Beherit: La Llave al Reino de la Condena", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-beherit-la-llave-al-reino-de-la-condena/" },
+    { title: "El Espadachín Negro: La Lucha de Guts Contra el Destino", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-espadachin-negro-la-lucha-de-guts-contra-el-destino/" },
     { title: "Elfhelm: La Isla de la Esperanza y la Magia", url: "https://emmanuelcasmes.github.io/berserkwiiki/elfhelm-la-isla-de-la-esperanza-y-la-magia/" },
     { title: "El Eclipse: El Ritual que Marcó un Destino", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-eclipse-el-ritual-que-marcó-un-destino/" },
     { title: "El Sueño de un Halcón y su Oscura Transformación", url: "https://emmanuelcasmes.github.io/berserkwiiki/el-sueño-de-un-halcón-y-su-oscura-transformación/" },
@@ -32,12 +39,14 @@
     { title: "La Armadura Berserker: El Precio de la Venganza", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-armadura-berserker-el-precio-de-la-venganza/" },
     { title: "La Espada del Dragón: El Icono de Destrucción de Guts", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-espada-del-dragon-el-icono-de-destruccion-de-guts/" },
     { title: "La Fantasía y la Realidad: La Transición entre Mundos", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-fantasia-y-la-realidad-la-transicion-entre-mundos/" },
+    { title: "La Guerra Trágica y su Camino Hacia la Redención", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-guerra-tragica-y-su-camino-hacia-la-redencion/" },
     { title: "La Mano de Dios: Los Arquitectos de la Oscuridad", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-mano-de-dios-los-arquitectos-de-la-oscuridad/" },
     { title: "La Marca del Sacrificio: Una Vida Perseguida por Demonios", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-marca-del-sacrificio-una-vida-perseguida-por-demonios/" },
     { title: "La Torre de la Condena: La Herejía y el Dolor Humano", url: "https://emmanuelcasmes.github.io/berserkwiiki/la-torre-de-la-condena-la-herejia-y-el-dolor-humano/" },
     { title: "Los Apóstoles: Los Soldados de la Oscuridad", url: "https://emmanuelcasmes.github.io/berserkwiiki/los-apostoles-los-soldados-de-la-oscuridad/" },
-    { title: "Puck: La Luz en la Oscuridad de un Mundo Cruel", url: "https://emmanuelcasmes.github.io/berserkwiiki/puck-la-luz-en-la-oscuridad-de-un-mundo-cruel/" },
-  ];
+    { title: "Puck: La Luz en la Oscuridad de un Mundo Cruel", url: "https://emmanuelcasmes.github.io/berserkwiiki/puck-la-luz-en-la-oscuridad-de-un-mundo-cruel/" }
+];
+
 
   // Función de búsqueda
   document.getElementById('searchForm').addEventListener('submit', function(e) {
