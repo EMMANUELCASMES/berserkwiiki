@@ -7,12 +7,37 @@
     <ul class="navbar-menu">
       <li><a href="/">Inicio</a></li>
       <li><a href="/acerca">Acerca</a></li>
+      <li><a href="/contacto">Contacto</a></li>
       <li><a href="/blog">Blog</a></li>
     </ul>
 
     <!-- Barra de búsqueda -->
-    <form class="search-form" action="/search" method="get">
-      <input type="search" placeholder="Buscar..." name="query" required>
+    <form class="search-form" action="http://www.google.es/search" method="get">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="hidden" name="oe" value="UTF-8">
+      <!-- Especificamos las URLs para limitar la búsqueda -->
+      <input type="hidden" 
+             name="q" 
+             value="site:localhost:7777/historia-de-guts/ 
+                    OR site:localhost:7777/skull-knight-el-enigma-que-acecha-en-las-sombras/ 
+                    OR site:localhost:7777/la-era-dorada-y-el-grupo-de-los-halcones/ 
+                    OR site:localhost:7777/kentaro-miura-el-genio-detras-de-la-oscuridad/ 
+                    OR site:localhost:7777/zodd-el-inmortal-el-guerrero-que-desafia-la-muerte/ 
+                    OR site:localhost:7777/el-beherit-la-llave-al-reino-de-la-condena/ 
+                    OR site:localhost:7777/el-espadachin-negro-la-lucha-de-guts-contra-el-destino/ 
+                    OR site:localhost:7777/elfhelm-la-isla-de-la-esperanza-y-la-magia/ 
+                    OR site:localhost:7777/el-eclipse-el-ritual-que-marc%C3%B3-un-destino/ 
+                    OR site:localhost:7777/el-sue%C3%B1o-de-un-halc%C3%B3n-y-su-oscura-transformaci%C3%B3n/ 
+                    OR site:localhost:7777/farnese-y-serpico-la-fe-la-llama-y-la-lealtad/ 
+                    OR site:localhost:7777/la-armadura-berserker-el-precio-de-la-venganza/ 
+                    OR site:localhost:7777/la-espada-del-dragon-el-icono-de-destruccion-de-guts/ 
+                    OR site:localhost:7777/la-fantasia-y-la-realidad-la-transicion-entre-mundos/ 
+                    OR site:localhost:7777/la-mano-de-dios-los-arquitectos-de-la-oscuridad/ 
+                    OR site:localhost:7777/la-marca-del-sacrificio-una-vida-perseguida-por-demonios/ 
+                    OR site:localhost:7777/la-torre-de-la-condena-la-herejia-y-el-dolor-humano/ 
+                    OR site:localhost:7777/los-apostoles-los-soldados-de-la-oscuridad/ 
+                    OR site:localhost:7777/puck-la-luz-en-la-oscuridad-de-un-mundo-cruel/">
+      <input type="search" placeholder="Buscar en los sitios..." name="q" required>
       <button type="submit">Buscar</button>
     </form>
   </div>
